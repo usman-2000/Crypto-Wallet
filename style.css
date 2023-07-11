@@ -1,0 +1,33 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 2em 0.4em 2em;
+  background-color: #171717;
+}
+
+#heading {
+  font-size: 2em;
+  color: rgb(0, 255, 200);
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  border-radius: 25px;
+  outline: none;
+  color: white;
+  background-color: #171717;
+  border: none;
+  box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+}
+
+.input-icon {
+  height: 1.3em;
+  width: 1.3em;
+  fill: rgb(0, 255, 200);
+}
